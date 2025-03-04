@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <div id="outer">
+        <img src="img/pehle.webp" alt="">
+        <p>Phle bhi....</p>
+        <audio src="music/song1.mp3" controls></audio>
+        <div>
+            <i class="fa-solid fa-backward fa-xl" onclick="prev()"></i>
+            <i class="fa fa-pause-circle fa-xl" onclick="apause()"></i>
+            <i class="fa-solid fa-play-circle fa-xl" onclick="aplay()"></i>
+            <i class="fa-solid fa-forward fa-xl" onclick="next()"></i>
+        </div>
+    </div>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
